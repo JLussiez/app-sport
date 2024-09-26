@@ -5,112 +5,63 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-body-tertiary text-center text-lg-start">
+      <footer className="bg-body-secondary text-center text-lg-start">
         <div className="container p-4">
           <div className="row">
-            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+            <div className="col-lg-6 col-md-6 mb-4 mb-md-0">
+              <h5 className="text-uppercase">Accueil</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
                   <a href="#!" className="text-body">
-                    Link 1
+                    Football
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-body">
-                    Link 2
+                    Basketball
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-body">
-                    Link 3
+                    Formule 1
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-body">
-                    Link 4
+                    Tennis
+                  </a>
+                </li>
+                <li>
+                  <a href="#!" className="text-body">
+                    Contact
                   </a>
                 </li>
               </ul>
             </div>
 
-            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 className="text-uppercase mb-0">Links</h5>
+            <div className="col-lg-6 col-md-6 mb-4 mb-md-0">
+              <h5 className="text-uppercase mb-0">Conditions Générales</h5>
 
               <ul className="list-unstyled">
                 <li>
                   <a href="#!" className="text-body">
-                    Link 1
+                    Newsletter
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-body">
-                    Link 2
+                    RGPD
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-body">
-                    Link 3
+                    Utilisation des cookies
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-body">
-                    Link 4
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
-
-              <ul className="list-unstyled mb-0">
-                <li>
-                  <a href="#!" className="text-body">
-                    Link 1
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-body">
-                    Link 2
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-body">
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-body">
-                    Link 4
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 className="text-uppercase mb-0">Links</h5>
-
-              <ul className="list-unstyled">
-                <li>
-                  <a href="#!" className="text-body">
-                    Link 1
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-body">
-                    Link 2
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-body">
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-body">
-                    Link 4
+                    Mentions légales
                   </a>
                 </li>
               </ul>
@@ -122,10 +73,7 @@ export default function Footer() {
           className="text-center p-3"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
         >
-          © 2020 Copyright:
-          <a className="text-body" href="https://mdbootstrap.com/">
-            MDBootstrap.com
-          </a>
+          © 2024 Copyright: AppSport
         </div>
       </footer>
     </>

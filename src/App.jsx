@@ -5,12 +5,11 @@ import Header from "./components/Header/header"
 import './App.css'
 
 function App() {
-
   return (
     <>
-      <Header/>
+      <Header />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

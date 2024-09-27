@@ -1,14 +1,13 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Template from "./components/Template";
+import { useState } from "react";
+import Header from "./components/Header/header";
+import Contact from "./components/Contact/Contact";
 import "./App.css";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Template />,
-  },
-]);
-
-export default function App() {
-  return <RouterProvider router={router} />;
+function App() {
+  return (
+    <>
+      <Header />
+      <Contact />
+    </>
+  );
 }

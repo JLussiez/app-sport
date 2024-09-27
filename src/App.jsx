@@ -1,12 +1,13 @@
-import { useState } from 'react'
-import viteLogo from '/vite.svg'
-import Header from "./components/Header/header"
-import './App.css'
+import { useState } from "react";
+import Header from "./components/Header/header";
+import Contact from "./components/Contact/Contact";
+import "./App.css";
 
 function App() {
   return (
     <>
-    <Header/>
+      <Header />
+      <Contact />
     </>
   );
 }

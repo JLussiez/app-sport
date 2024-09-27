@@ -1,0 +1,16 @@
+/* Gallery.css */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond sombre avec transparence */
+    opacity: 0; /* Caché par défaut */
+    transition: opacity 0.3s ease; /* Transition fluide */
+}
+
+.position-relative:hover .overlay {
+    opacity: 1; /* Afficher au survol */
+}

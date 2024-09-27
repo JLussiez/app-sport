@@ -9,6 +9,7 @@ export default function App() {
   return (
     <>
       <Header />
+      <h2 className="d-flex justify-content-center pt-4">Galerie</h2>
       <Gallery />
       <Contact />
       <Footer />

@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function Contact() {
   return (
     <>
-      <h2 className="d-flex justify-content-center pt-4">
+      <h2 className="d-flex justify-content-center pt-4" id="contact">
         Bienvenue sur notre page de contact
       </h2>
       <div

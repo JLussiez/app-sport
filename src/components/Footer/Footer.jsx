@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-body-secondary text-center text-lg-start">
+      <footer className="bg-body-tertiary text-center text-lg-start">
         <div className="container p-4">
           <div className="row">
             <div className="col-lg-6 col-md-6 mb-4 mb-md-0">
@@ -14,22 +14,7 @@ export default function Footer() {
               <ul className="list-unstyled mb-0">
                 <li>
                   <a href="#!" className="text-body">
-                    Football
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-body">
-                    Basketball
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-body">
-                    Formule 1
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-body">
-                    Tennis
+                    Galerie
                   </a>
                 </li>
                 <li>

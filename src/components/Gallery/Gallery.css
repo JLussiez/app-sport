@@ -1,16 +1,23 @@
-/* Gallery.css */
-
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond sombre avec transparence */
-    opacity: 0; /* Caché par défaut */
-    transition: opacity 0.3s ease; /* Transition fluide */
+    background-color: rgba(0, 0, 0, 0.6); /* Fond semi-transparent */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 20px; /* Padding autour du texte */
 }
 
 .position-relative:hover .overlay {
-    opacity: 1; /* Afficher au survol */
+    opacity: 1; /* Affiche l'overlay au survol */
+}
+
+.img-fluid {
+    transition: transform 0.3s ease;
+}
+
+.position-relative:hover .img-fluid {
+    transform: scale(1.05); /* Agrandit légèrement l'image au survol */
 }

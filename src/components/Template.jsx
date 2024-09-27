@@ -1,10 +1,10 @@
-import React from "react";
-import Footer from "./Footer/Footer";
+// import React from "react";
+// import Footer from "./Footer/Footer";
 
-export default function Template() {
-  return (
-    <>
-      <Footer />
-    </>
-  );
-}
+// export default function Template() {
+//   return (
+//     <>
+//       <Footer />
+//     </>
+//   );
+// }

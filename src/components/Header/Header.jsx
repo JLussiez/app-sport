@@ -23,24 +23,14 @@ export default function Header() {
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">
-                  Football
+                  Accueil
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  Basketball
+                  Contact
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Formule 1
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Tennis
-                </a>
-              </li>
+              </li>            
             </ul>
           </div>
         </div>

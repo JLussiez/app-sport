@@ -9,9 +9,9 @@ export default function App() {
   return (
     <>
       <Header />
+      <Gallery />
       <Contact />
       <Footer />
-      <Gallery/>
     </>
   );
 }
